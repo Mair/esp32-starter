@@ -3,7 +3,7 @@
 
 ## About This template
 
-This template can be used as is but its intended as a quick start for the students learning the ESP32-IDF through the Udemy course [Getting started with the ESP-32 and the IDF](/misc/comingsoon.md)
+This template can be used as is but its intended as a quick start for the students learning the ESP32-IDF through the Udemy course [Getting started with the ESP-32 and the IDF](esp32-starter/misc/commingsoon.md)
 
 ## prerequisites
 
