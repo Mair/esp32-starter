@@ -3,8 +3,7 @@
 
 ## About This template
 
-This template can be used as is but its intended as a quick start for the students learning the ESP32-IDF through the Udemy course [Getting started with the ESP-32 and the IDF](esp32-starter/misc/commingsoon.md)
-
+This template can be used as is but, its intended as a quick start for the students learning the ESP32-IDF through the Udemy course [Getting started with the ESP32 and the IDF] https://github.com/Mair/esp32-starter/blob/master/misc/commingsoon.md
 ## prerequisites
 
 1. setup your toolchain and ESP-IDF as described in the [official documentation](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/#step-1-set-up-the-toolchain)
