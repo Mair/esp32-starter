@@ -6,7 +6,7 @@
                 "path": [
                     "${workspaceFolder}",
                     "${IDF_PATH}",
-                    "C:/Program Files/Espressif"
+                    "${IDF_TOOLS}"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
@@ -35,6 +35,7 @@
                 "${IDF_TOOLS}/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf",
                 "${IDF_TOOLS}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
                 "${IDF_TOOLS}/xtensa-esp32-elf/include/c++/5.2.0/tr1"
+
 
             ],
             "defines": [],
