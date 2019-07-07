@@ -1,6 +1,10 @@
 
 # ESP32 Starter template
 
+## About This template
+
+This template can be used as is but its intended as a quick start for the students learning the ESP32-IDF through the Udemy course [Getting started with the ESP-32 and the IDF](/misc/comingsoon.md)
+
 ## prerequisites
 
 1. setup your toolchain and ESP-IDF as described in the [official documentation](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/#step-1-set-up-the-toolchain)
@@ -47,7 +51,18 @@ wire up the FT2322 and the esp32 as follows
 
 ![FT2322 jtag debugging][FT2322-jtag]
 
-[FT2322-jtag]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[FT2322-jtag]: /misc/pin%20mapping.svg "Logo Title Text 2"
 
+| FT2322 Pin Name | FT2322 pin number | ESP32 pin name| ESP32 pin number
+| --------------- |:-----------------:|:-------------:|:-------------:|
+| TCK             | ADBUS 0           | 13            | MTCK  
+| TDI             | ADBUS 1           | 12            | MTDI
+| TDO             | ADBUS 2           | 15            | MTDO
+| TMS             | ADBUS 3           | 14            | MTMS
+| GND             |                   | GND           |
 
+start the debugger by using
+
+```
 openocd -f debug\ftdi_ft2322.cfg -f debug\esp-wroom-32.cfg
+```
