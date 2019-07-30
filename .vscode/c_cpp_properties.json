@@ -32,18 +32,14 @@
                 "${IDF_PATH}/components/xtensa/include",
                 "${IDF_PATH}/components/xtensa/esp32/include",
                 "${IDF_PATH}/components/esp_rom/include",
-                "${IDF_TOOLS}/xtensa-esp32-elf/include/c++/5.2.0",
-                "${IDF_TOOLS}/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf",
-                "${IDF_TOOLS}/lib/gcc/xtensa-esp32-elf/5.2.0/include",
-                "${IDF_TOOLS}/xtensa-esp32-elf/include/c++/5.2.0/tr1"
-
-
+                "${IDF_PATH}/components/spiffs/include",
+                "${IDF_TOOLS}/xtensa-esp32-elf/1.22.0-80-g6c4433a5-5.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+                "${IDF_TOOLS}/xtensa-esp32-elf/1.22.0-80-g6c4433a5-5.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include"
             ],
             "defines": [],
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64",
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4
