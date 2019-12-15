@@ -1,5 +1,6 @@
 {
     "env": {
+        "MESSAGE":" MAC AND LINUX USERS!!!- change path from c:/... to ~/esp/... or as approirate for your enviroment",
         "IDF_TOOLS": "c:/esp/tools/.espressif/tools",
         "IDF_PATH": "c:/esp/esp-idf"
     },
